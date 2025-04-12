@@ -91,4 +91,16 @@ section {
   font-size: 1.2em;
   line-height: 1.6em;
   text-shadow: 0 0 5px #aaa;
+}/* Секции: разные цвета фонов (по желанию можно отключить) */
+#courses {
+  background-color: rgba(0, 0, 0, 0.4);
 }
+
+#blog {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#contacts {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
