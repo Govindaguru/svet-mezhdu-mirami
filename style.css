@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  font-family: 'Georgia', serif;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+  max-width: 80%;
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+  text-shadow: 0 0 10px #fff;
+}
+
+p {
+  font-size: 1.5em;
+  text-shadow: 0 0 5px #ccc;
+}
